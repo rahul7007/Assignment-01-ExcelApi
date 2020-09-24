@@ -26,12 +26,6 @@ class Transaction extends Component {
             <div>
                 <button onClick={this.save}>submit</button>
                 <button onClick={this.show}>view</button>
-                {/* <form>
-                    <label>myid :</label> <input type="text" />
-                    <label>myname :</label> <input type="text" />
-                    <label>phone :</label> <input type="text" />
-                    <button onClick={this.save}>submit</button>
-                </form> */}
             </div>
          );
     }
